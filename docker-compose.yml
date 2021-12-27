@@ -1,0 +1,7 @@
+version: '3.5'
+services:
+  bot:
+    image: registry.envyvox.app/league-balancer
+    build:
+      context: .
+      dockerfile: ./LeagueBalancer/Dockerfile
